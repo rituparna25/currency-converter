@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#FFCA3A ;
+}
+
+.container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 5px solid black;
+    min-height: 45vh ;
+    width: 40vh
+}
+
+form{
+    margin: 2rem 0 1rem 0 ;
+
+}
+
+form select,button,input{
+    width:100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    
+}
+
+form input{
+    border:1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+p,input{
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+i{
+    margin-right: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+
+.dropdown i{
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border:1px solid lightgray;
+    width:6rem;
+    background-color: beige;
+}
+
+.select-container select{
+    font-size: 1rem;
+    background-color: beige;
+    
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+form button{
+    height:3rem;
+    background-color: #8AC926;
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+
+button{
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #000000d9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
